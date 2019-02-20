@@ -1,0 +1,52 @@
+
+java_version: 8
+
+homebrew_installed_packages:
+  - bash-completion
+  - bat
+  - cowsay
+  - fc
+  - git
+  - gnu-tar
+  - gpg
+  - httpie
+  - sqlite
+  - mongodb
+  - node
+  - nvm
+  - openssl
+  - php
+  - ssh-copy-id
+  - wget
+
+mas_installed_apps: []
+
+composer_packages: []
+#  - name: hirak/prestissimo
+
+gem_packages:
+  - name: bundler
+    become: true
+    state: latest
+
+npm_packages:
+  - name: pm2
+
+pip_packages: []
+#  - name: mkdocs
+
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - firefox
+  - google-backup-and-sync 
+  - google-chat
+  - google-chrome
+  - intellij-idea
+  - iterm2
+  - postman
+  - robo-3t
+  - skype
+  - slack
+  - virtualbox
+  - visual-studio-code
