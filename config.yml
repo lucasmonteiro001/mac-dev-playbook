@@ -1,12 +1,15 @@
 
 java_version: 8
 
+configure_dotfiles: no
+
 homebrew_installed_packages:
   - bash-completion
   - bat
   - cowsay
-  - fc
+  - fortune
   - git
+  - git-crypt
   - gnu-tar
   - gpg
   - httpie
@@ -33,7 +36,8 @@ npm_packages:
   - name: pm2
 
 pip_packages: []
-#  - name: mkdocs
+
+dotfiles_files: []
 
 homebrew_cask_apps:
   - chromedriver
